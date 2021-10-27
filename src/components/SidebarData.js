@@ -7,33 +7,33 @@ import * as TiIcons from "react-icons/ti";
 
 export const SidebarData = [
   {
-    title: "About me",
+    title: "ABOUT ME",
     path: "/about",
-    icon: <MdIcons.MdPersonOutline />,
+    icon: <MdIcons.MdPersonOutline className="sidebar-icon-style" />,
     cName: "side-text",
   },
   {
-    title: "Portfolio",
+    title: "PORTFOLIO",
     path: "/portfolio",
-    icon: <HiIcons.HiOutlineDesktopComputer />,
+    icon: <HiIcons.HiOutlineDesktopComputer className="sidebar-icon-style" />,
     cName: "side-text",
   },
   {
-    title: "My Cv",
+    title: "MY CV",
     path: "/mycv",
-    icon: <RiIcons.RiFilePaper2Line />,
+    icon: <RiIcons.RiFilePaper2Line className="sidebar-icon-style" />,
     cName: "side-text",
   },
   {
-    title: "Blog",
+    title: "BLOG",
     path: "/blog",
-    icon: <HiIcons.HiOutlineNewspaper />,
+    icon: <HiIcons.HiOutlineNewspaper className="sidebar-icon-style" />,
     cName: "side-text",
   },
   {
-    title: "Contact Me",
+    title: "CONTACT ME",
     path: "/contactMe",
-    icon: <TiIcons.TiMessages />,
+    icon: <TiIcons.TiMessages className="sidebar-icon-style" />,
     cName: "side-text",
   },
 ];
