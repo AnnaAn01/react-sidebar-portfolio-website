@@ -40,7 +40,9 @@ function Sidebar() {
             <span className="get-in-touch">GET IN TOUCH</span>
             <div className="sidebar-social-media-icons">
               <span>
-                <MdIcons.MdEmail className="sidebar-sns" />
+                <a target="_blank" href="https://www.gmail.com/">
+                  <MdIcons.MdEmail className="sidebar-sns" />
+                </a>
               </span>
               <span>
                 <a target="_blank" href="https://www.linkedin.com/">
