@@ -1,6 +1,5 @@
 import React from "react";
 import * as RiIcons from "react-icons/ri";
-import * as ImIcons from "react-icons/im";
 import * as MdIcons from "react-icons/md";
 import * as HiIcons from "react-icons/hi";
 import * as TiIcons from "react-icons/ti";

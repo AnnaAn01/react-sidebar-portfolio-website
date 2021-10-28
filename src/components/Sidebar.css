@@ -101,4 +101,5 @@ span {
 
 .sidebar-sns:hover {
   font-size: 23px;
+  cursor: pointer;
 }
