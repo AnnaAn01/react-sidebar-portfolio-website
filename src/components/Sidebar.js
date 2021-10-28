@@ -43,16 +43,24 @@ function Sidebar() {
                 <MdIcons.MdEmail className="sidebar-sns" />
               </span>
               <span>
-                <FaIcons.FaLinkedin className="sidebar-sns" />
+                <a target="_blank" href="https://www.linkedin.com/">
+                  <FaIcons.FaLinkedin className="sidebar-sns" />
+                </a>
               </span>
               <span>
-                <FaIcons.FaGithubSquare className="sidebar-sns" />
+                <a target="_blank" href="https://github.com/">
+                  <FaIcons.FaGithubSquare className="sidebar-sns" />
+                </a>
               </span>
               <span>
-                <FaIcons.FaTwitterSquare className="sidebar-sns" />
+                <a target="_blank" href="https://twitter.com/">
+                  <FaIcons.FaTwitterSquare className="sidebar-sns" />
+                </a>
               </span>
               <span>
-                <FaIcons.FaYoutube className="sidebar-sns" />
+                <a target="_blank" href="https://www.youtube.com/">
+                  <FaIcons.FaYoutube className="sidebar-sns" />
+                </a>
               </span>
             </div>
           </ul>
