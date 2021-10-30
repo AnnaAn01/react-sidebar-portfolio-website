@@ -4,9 +4,7 @@ import { SidebarData } from "./SidebarData";
 import { IconContext } from "react-icons";
 import "./Sidebar.css";
 import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
 import * as MdIcons from "react-icons/md";
-import * as ImIcons from "react-icons/im";
 
 function Sidebar() {
   const [sidebar, setSidebar] = useState(false);
@@ -40,27 +38,39 @@ function Sidebar() {
             <span className="get-in-touch">GET IN TOUCH</span>
             <div className="sidebar-social-media-icons">
               <span>
-                <a target="_blank" href="https://www.gmail.com/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.gmail.com/"
+                >
                   <MdIcons.MdEmail className="sidebar-sns" />
                 </a>
               </span>
               <span>
-                <a target="_blank" href="https://www.linkedin.com/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/"
+                >
                   <FaIcons.FaLinkedin className="sidebar-sns" />
                 </a>
               </span>
               <span>
-                <a target="_blank" href="https://github.com/">
+                <a target="_blank" rel="noreferrer" href="https://github.com/">
                   <FaIcons.FaGithubSquare className="sidebar-sns" />
                 </a>
               </span>
               <span>
-                <a target="_blank" href="https://twitter.com/">
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/">
                   <FaIcons.FaTwitterSquare className="sidebar-sns" />
                 </a>
               </span>
               <span>
-                <a target="_blank" href="https://www.youtube.com/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.youtube.com/"
+                >
                   <FaIcons.FaYoutube className="sidebar-sns" />
                 </a>
               </span>
