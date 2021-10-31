@@ -7,7 +7,7 @@ import * as TiIcons from "react-icons/ti";
 export const SidebarData = [
   {
     title: "ABOUT ME",
-    path: "/about",
+    path: "/",
     icon: <MdIcons.MdPersonOutline className="sidebar-icon-style" />,
     cName: "side-text",
   },

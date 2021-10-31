@@ -40,7 +40,7 @@ function Sidebar() {
               <span>
                 <a
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   href="https://www.gmail.com/"
                 >
                   <MdIcons.MdEmail className="sidebar-sns" />
@@ -49,26 +49,34 @@ function Sidebar() {
               <span>
                 <a
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   href="https://www.linkedin.com/"
                 >
                   <FaIcons.FaLinkedin className="sidebar-sns" />
                 </a>
               </span>
               <span>
-                <a target="_blank" rel="noreferrer" href="https://github.com/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/"
+                >
                   <FaIcons.FaGithubSquare className="sidebar-sns" />
                 </a>
               </span>
               <span>
-                <a target="_blank" rel="noreferrer" href="https://twitter.com/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://twitter.com/"
+                >
                   <FaIcons.FaTwitterSquare className="sidebar-sns" />
                 </a>
               </span>
               <span>
                 <a
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   href="https://www.youtube.com/"
                 >
                   <FaIcons.FaYoutube className="sidebar-sns" />

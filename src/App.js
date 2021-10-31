@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Sidebar />
         <Switch>
-          <Route path="/about" exact component={AboutMe} />
+          <Route path="/" exact component={AboutMe} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/mycv" component={MyCv} />
           <Route path="/blog" component={Blog} />
